@@ -1,6 +1,33 @@
+* {
+    padding: 0;
+}
+
 body {
     background-color: beige;
     font-family: 'Raleway', sans-serif;
+}
+
+nav {
+    float: right;
+    margin-top: 1em;
+}
+
+nav li {
+    display: inline;
+    list-style: none;
+    color: white;
+    margin-right: 2em;
+    text-shadow: 1px 1px 1px black;
+    font-weight: bold;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: grey;
+    text-decoration: none;
 }
 
 header.jumbotron {
@@ -9,6 +36,7 @@ header.jumbotron {
     background-size: cover;
     background-position: left;
     box-shadow: black 5px 5px 5px;
+    padding-top: 4em;
 }
 
 header.jumbotron h1, header.jumbotron h6 {
@@ -44,6 +72,10 @@ article.example p {
     text-indent: 2em;
 }
 
+article.example img {
+    max-width: 100%;
+}
+
 article.history img {
     width:100%;
 }
@@ -70,7 +102,10 @@ hr.style-seven:before { /* Not really supposed to work, but does */
 footer {
     text-align: center;
     font-size: 14px;
+    margin-top: 1em;
     padding: 1em;
+    background-color: rgb(80, 67, 67);
+    color: whitesmoke;
 }
 
 .quote {
@@ -88,5 +123,9 @@ footer {
 @media (max-width: 768px) {
     article.history div p {
         padding-top: 1em;
+    }
+
+    img.equation {
+        margin-top: 1.5em;
     }
 }

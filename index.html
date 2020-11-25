@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cosine</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <header class="jumbotron mx-0">
+        <h1>The Law of Cosines</h1>
+        <h6>Also known as Cosine Rule</h6>
+    </header>
+
+    <section class="container">
+        <h2><i class="fas fa-book"></i> History</h2>
+        <article class="mt-5 history row">
+            <div class="col-md-4">
+                <img src="images/euclids.png" alt="">
+            </div>
+            <div class="col-md-8">
+                <p class="quote">“The laws of nature are but the mathematical thoughts of God.”</p>
+                <p class="text-center">- Euclid</p>
+                <p>
+                    Even though the cosine did not yet exist in his time, <b>Euclid’s ‘Elements’</b>, dating back to the 3rd century BC, contained an early geometric theorem equivalent to the law of cosines. In the 10th century, Persian astronomer and mathematician <b>Al-Battani</b> generalized Euclid’s result to spherical geometry, which permitted him to calculate the angular distances between stars. In the 15th century, Al-Kashi in Samarqand provided the first explicit statement of the law of cosines in a form suitable for triangulation.
+                </p>
+            </div>
+        </article>
+
+        <hr class="style-seven">
+
+        <article class="mt-3 mb-5">
+            <h2 class="mb-4">Application <i class="fas fa-calculator"></i></h2>
+            <h6>What is it used for?</h6>
+            <p>The cosine rule is useful for finding:</p>
+            <ul>
+                <li>
+                    the third side of a triangle when <b>two</b> sides and the <b>angle</b> between them are known
+                </li>
+                <li>
+                    the angle of a triangle when <b>all three</b> sides are known
+                </li>
+            </ul>
+            <h6>Equations:</h6>
+            <section class="container">
+                <ul class="row">    
+                    <li class="col-md-6 mt-3 mb-3"><b>a² = b² + c² – 2bc cos A</b> is used for finding the missing side</li>
+                    <li class="col-md-6">
+                        <img class="equation" src="images/equation-two.gif" alt="">
+                        is used for finding angles
+                    </li>
+                    <li class="col-md-12">
+                        <p>In this example, <b>a,b,c</b> are used to represent the sides of a triangle, while <b>A</b> is used to represent the angle.</p>
+                    </li>
+                    <li class="col-md-12 text-center">
+                        <img id="cosine" src="images/cosine.png" alt="">
+                    </li>
+                </ul>
+                
+            </section>
+            
+        </article>
+
+        <hr class="style-seven">
+
+        <article class="example">
+            <h2 class="mb-5"><i class="far fa-question-circle"></i> Example</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <p><b>Problem: </b> An architect is trying to determine the pitch (angle) of a roof. The known measurements are the lengths and widths of the building, and the desired length of each side of the roof.</p>
+                    <img src="images/house.png" alt="">
+                </div>
+                <div class="col-md-6">
+                    <p>For this problem, the formula: <img class="equation" src="images/equation-two.gif" alt=""> will be used.</p>
+                    <img src="images/cosine_2.png" alt="">
+                    <p>Therefore, the pitch of the roof is <b>97.9 degree.</b></p>
+                </div>
+            </div>
+        </article>
+    </section>
+
+    <footer>
+        <p>Copyright © 2020 by Kim Zuniga. Project for MATH8</p>
+    </footer>
+    
+</body>
+</html>

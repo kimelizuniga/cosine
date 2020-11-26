@@ -48,6 +48,10 @@ img.equation {
     height: 55px;
 }
 
+img#cosine {
+    max-width: 100%;
+}
+
 ul.row {
     list-style: none;
 }
